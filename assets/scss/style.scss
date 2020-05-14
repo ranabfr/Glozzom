@@ -1,0 +1,160 @@
+$dark-overlay: rgba(0,0,0,0.7);
+
+.navbar{
+	background: #000;
+	.nav-item{
+		padding-left: 1em !important;
+
+		.nav-link{
+			text-transform: uppercase;
+		}
+	}
+}
+
+.carousel-item{
+	height:450px;
+	h2{
+		color:#fff;
+	}
+}
+
+.carousel-img-1{
+	background: url(../img/image1.jpeg);
+	background-size: cover;	
+}
+.carousel-img-2{
+	background: url(../img/image2.jpeg);
+	background-size: cover;	
+}
+.carousel-img-3{
+	background: url(../img/image3.jpeg);
+	background-size: cover;	
+}
+
+#getstart{
+	background: url(../img/bg1.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 250px;
+	position: relative;
+
+	.dark-overlay{
+		background: $dark-overlay;
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+	}
+}
+
+#homeVideo{
+	background: url(../img/people.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 250px;
+	position: relative;
+	.dark-overlay{
+		background: $dark-overlay;
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+	}
+
+	.fa{
+		color:red;
+	}
+}
+
+#homeGallery{
+	img{
+		
+	}
+}
+
+#homeFooter{
+	background: black;
+}
+
+
+/** About Us*/
+#aboutHeader{
+	background: url(../img/image1.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#whatWeDo{
+
+	.wedoimg{
+		text-align: center;
+
+		img{
+		min-height: 350px;
+		max-width: 350px;
+		}
+	}
+}
+
+
+.slick-prev:before,
+.slick-next:before {
+	color:#000;
+}
+
+
+
+/** Service Header*/
+#servicesHeader{
+	background: url(../img/image3.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/** Blog Header*/
+#BlogHeader{
+	background: url(../img/image3.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/** Contact Header*/
+#ContactHeader{
+	background: url(../img/image3.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px){
+	#getstart{
+		min-height: 300px;
+	}
+}
+
+@media(max-width: 480px){
+	.carousel{
+		h2{
+			font-size: 2.5rem;
+		}
+	}
+
+	#getstart{
+		min-height: 420px;
+	}
+}
